@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html xmlns:th="https://www.thymeleaf.org"
+	th:replace="~{fragments/layout :: layout (~{::body},'home')}">
+
+<body>
+
+	<div class="starter-template">
+
+		<div th:if="${item!=null}">
+			<h3><span th:text="${title}"></span> : <span th:text="${subtitle}"></span></h3>
+			
+			<div th:text="${item.isPresent()} ? ${item}:'Not Found!'" 
+					th:class="${!item.isPresent()}?'alert alert-warning':'alert alert-success'"></div>
+			
+		</div>
+		<div th:if="${items!=null and !items.empty}">
+			<h3><span th:text="${title}"></span></h3>
+			<ul>
+		        <li th:each="item : ${items}">
+		        	<a th:text="${item}" th:href="@{|/articles/${item.id}|}"></a>        	
+		        </li>
+		    </ul>	
+		</div>
+
+    </div>
+</body>
+</html>

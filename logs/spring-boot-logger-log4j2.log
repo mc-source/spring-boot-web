@@ -1,0 +1,128 @@
+2020-11-22 10:20:21,260 INFO o.s.b.StartupInfoLogger [restartedMain] Starting SpringbootWebApplication using Java 1.8.0_211 on AFIP-I10 with PID 22912 (C:\Dev\workspace\springboot-web\target\classes started by mchouarbi in C:\Dev\workspace\springboot-web)
+2020-11-22 10:20:21,262 INFO o.s.b.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2020-11-22 10:20:21,493 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-11-22 10:20:21,501 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 7 ms. Found 1 JPA repository interfaces.
+2020-11-22 10:20:21,626 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2020-11-22 10:20:21,627 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2020-11-22 10:20:21,627 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2020-11-22 10:20:21,627 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.39]
+2020-11-22 10:20:21,647 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2020-11-22 10:20:21,647 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 381 ms
+2020-11-22 10:20:21,692 INFO o.s.s.c.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-22 10:20:21,698 INFO o.h.j.i.u.LogHelper [task-1] HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-11-22 10:20:21,702 INFO c.z.h.HikariDataSource [task-1] HikariPool-4 - Starting...
+2020-11-22 10:20:21,715 INFO c.z.h.HikariDataSource [task-1] HikariPool-4 - Start completed.
+2020-11-22 10:20:21,715 INFO o.h.d.Dialect [task-1] HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-11-22 10:20:21,728 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-11-22 10:20:21,753 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [task-1] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-11-22 10:20:21,753 INFO o.s.o.j.AbstractEntityManagerFactoryBean [task-1] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-11-22 10:20:21,817 INFO o.s.b.a.w.s.WelcomePageHandlerMapping [restartedMain] Adding welcome page template: index
+2020-11-22 10:20:21,817 INFO o.s.b.d.a.OptionalLiveReloadServer [task-2] LiveReload server is running on port 35729
+2020-11-22 10:20:22,142 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2020-11-22 10:20:22,155 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2020-11-22 10:20:22,157 INFO o.s.d.r.c.DeferredRepositoryInitializationListener [restartedMain] Triggering deferred initialization of Spring Data repositories…
+2020-11-22 10:20:22,202 INFO o.s.d.r.c.DeferredRepositoryInitializationListener [restartedMain] Spring Data repositories initialized!
+2020-11-22 10:20:22,206 INFO o.s.b.StartupInfoLogger [restartedMain] Started SpringbootWebApplication in 1.034 seconds (JVM running for 327.399)
+2020-11-22 10:20:22,208 INFO o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2020-11-22 10:20:56,154 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-11-22 10:20:56,154 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2020-11-22 10:20:56,155 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 0 ms
+2020-11-22 10:20:56,158 INFO m.c.s.FrontController [http-nio-8080-exec-1] page = about | ID = 0
+2020-11-22 10:23:13,869 INFO o.s.o.j.AbstractEntityManagerFactoryBean [Thread-20] Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-11-22 10:23:13,872 INFO o.s.s.c.ExecutorConfigurationSupport [Thread-20] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-11-22 10:23:13,873 INFO c.z.h.HikariDataSource [Thread-20] HikariPool-4 - Shutdown initiated...
+2020-11-22 10:23:13,897 INFO c.z.h.HikariDataSource [Thread-20] HikariPool-4 - Shutdown completed.
+2020-11-22 10:23:14,197 INFO o.s.b.StartupInfoLogger [restartedMain] Starting SpringbootWebApplication using Java 1.8.0_211 on AFIP-I10 with PID 22912 (C:\Dev\workspace\springboot-web\target\classes started by mchouarbi in C:\Dev\workspace\springboot-web)
+2020-11-22 10:23:14,201 INFO o.s.b.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2020-11-22 10:23:14,357 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-11-22 10:23:14,363 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 7 ms. Found 1 JPA repository interfaces.
+2020-11-22 10:23:14,498 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2020-11-22 10:23:14,500 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2020-11-22 10:23:14,500 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2020-11-22 10:23:14,501 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.39]
+2020-11-22 10:23:14,511 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2020-11-22 10:23:14,518 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 308 ms
+2020-11-22 10:23:14,549 INFO o.s.s.c.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-22 10:23:14,552 INFO o.h.j.i.u.LogHelper [task-1] HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-11-22 10:23:14,560 INFO c.z.h.HikariDataSource [task-1] HikariPool-5 - Starting...
+2020-11-22 10:23:14,565 INFO c.z.h.HikariDataSource [task-1] HikariPool-5 - Start completed.
+2020-11-22 10:23:14,566 INFO o.h.d.Dialect [task-1] HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-11-22 10:23:14,584 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-11-22 10:23:14,599 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [task-1] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-11-22 10:23:14,600 INFO o.s.o.j.AbstractEntityManagerFactoryBean [task-1] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-11-22 10:23:14,637 INFO o.s.b.a.w.s.WelcomePageHandlerMapping [restartedMain] Adding welcome page template: index
+2020-11-22 10:23:14,800 INFO o.s.b.d.a.OptionalLiveReloadServer [task-2] LiveReload server is running on port 35729
+2020-11-22 10:23:14,835 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2020-11-22 10:23:14,839 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2020-11-22 10:23:14,839 INFO o.s.d.r.c.DeferredRepositoryInitializationListener [restartedMain] Triggering deferred initialization of Spring Data repositories…
+2020-11-22 10:23:14,871 INFO o.s.d.r.c.DeferredRepositoryInitializationListener [restartedMain] Spring Data repositories initialized!
+2020-11-22 10:23:14,873 INFO o.s.b.StartupInfoLogger [restartedMain] Started SpringbootWebApplication in 0.714 seconds (JVM running for 500.065)
+2020-11-22 10:23:14,875 INFO o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2020-11-22 10:23:47,979 INFO o.s.o.j.AbstractEntityManagerFactoryBean [Thread-25] Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-11-22 10:23:47,980 INFO o.s.s.c.ExecutorConfigurationSupport [Thread-25] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-11-22 10:23:47,981 INFO c.z.h.HikariDataSource [Thread-25] HikariPool-5 - Shutdown initiated...
+2020-11-22 10:23:47,996 INFO c.z.h.HikariDataSource [Thread-25] HikariPool-5 - Shutdown completed.
+2020-11-22 10:23:48,208 INFO o.s.b.StartupInfoLogger [restartedMain] Starting SpringbootWebApplication using Java 1.8.0_211 on AFIP-I10 with PID 22912 (C:\Dev\workspace\springboot-web\target\classes started by mchouarbi in C:\Dev\workspace\springboot-web)
+2020-11-22 10:23:48,209 INFO o.s.b.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2020-11-22 10:23:48,362 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-11-22 10:23:48,373 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 7 ms. Found 1 JPA repository interfaces.
+2020-11-22 10:23:48,505 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2020-11-22 10:23:48,505 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2020-11-22 10:23:48,508 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2020-11-22 10:23:48,508 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.39]
+2020-11-22 10:23:48,525 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2020-11-22 10:23:48,525 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 314 ms
+2020-11-22 10:23:48,554 INFO o.s.s.c.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-22 10:23:48,559 INFO o.h.j.i.u.LogHelper [task-1] HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-11-22 10:23:48,564 INFO c.z.h.HikariDataSource [task-1] HikariPool-6 - Starting...
+2020-11-22 10:23:48,570 INFO c.z.h.HikariDataSource [task-1] HikariPool-6 - Start completed.
+2020-11-22 10:23:48,570 INFO o.h.d.Dialect [task-1] HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-11-22 10:23:48,591 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-11-22 10:23:48,600 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [task-1] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-11-22 10:23:48,602 INFO o.s.o.j.AbstractEntityManagerFactoryBean [task-1] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-11-22 10:23:48,638 INFO o.s.b.d.a.OptionalLiveReloadServer [task-2] LiveReload server is running on port 35729
+2020-11-22 10:23:48,647 INFO o.s.b.a.w.s.WelcomePageHandlerMapping [restartedMain] Adding welcome page template: index
+2020-11-22 10:23:48,833 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2020-11-22 10:23:48,837 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2020-11-22 10:23:48,838 INFO o.s.d.r.c.DeferredRepositoryInitializationListener [restartedMain] Triggering deferred initialization of Spring Data repositories…
+2020-11-22 10:23:48,868 INFO o.s.d.r.c.DeferredRepositoryInitializationListener [restartedMain] Spring Data repositories initialized!
+2020-11-22 10:23:48,870 INFO o.s.b.StartupInfoLogger [restartedMain] Started SpringbootWebApplication in 0.702 seconds (JVM running for 534.063)
+2020-11-22 10:23:48,873 INFO o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2020-11-22 10:24:34,615 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-11-22 10:24:34,616 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2020-11-22 10:24:34,617 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 1 ms
+2020-11-22 10:24:34,621 INFO m.c.s.FrontController [http-nio-8080-exec-1] page = about | ID = 0
+2020-11-22 10:26:17,293 INFO o.s.o.j.AbstractEntityManagerFactoryBean [Thread-30] Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-11-22 10:26:17,297 INFO o.s.s.c.ExecutorConfigurationSupport [Thread-30] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-11-22 10:26:17,298 INFO c.z.h.HikariDataSource [Thread-30] HikariPool-6 - Shutdown initiated...
+2020-11-22 10:26:17,324 INFO c.z.h.HikariDataSource [Thread-30] HikariPool-6 - Shutdown completed.
+2020-11-22 10:26:17,570 INFO o.s.b.StartupInfoLogger [restartedMain] Starting SpringbootWebApplication using Java 1.8.0_211 on AFIP-I10 with PID 22912 (C:\Dev\workspace\springboot-web\target\classes started by mchouarbi in C:\Dev\workspace\springboot-web)
+2020-11-22 10:26:17,572 INFO o.s.b.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2020-11-22 10:26:17,779 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-11-22 10:26:17,784 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 10 ms. Found 1 JPA repository interfaces.
+2020-11-22 10:26:17,959 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2020-11-22 10:26:17,959 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2020-11-22 10:26:17,959 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2020-11-22 10:26:17,960 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.39]
+2020-11-22 10:26:17,976 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2020-11-22 10:26:17,977 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 404 ms
+2020-11-22 10:26:18,007 INFO o.s.s.c.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-22 10:26:18,012 INFO o.h.j.i.u.LogHelper [task-1] HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-11-22 10:26:18,016 INFO c.z.h.HikariDataSource [task-1] HikariPool-7 - Starting...
+2020-11-22 10:26:18,022 INFO c.z.h.HikariDataSource [task-1] HikariPool-7 - Start completed.
+2020-11-22 10:26:18,022 INFO o.h.d.Dialect [task-1] HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-11-22 10:26:18,039 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-11-22 10:26:18,050 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [task-1] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-11-22 10:26:18,050 INFO o.s.o.j.AbstractEntityManagerFactoryBean [task-1] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-11-22 10:26:18,094 INFO o.s.b.a.w.s.WelcomePageHandlerMapping [restartedMain] Adding welcome page template: index
+2020-11-22 10:26:18,096 INFO o.s.b.d.a.OptionalLiveReloadServer [task-2] LiveReload server is running on port 35729
+2020-11-22 10:26:18,279 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2020-11-22 10:26:18,282 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2020-11-22 10:26:18,283 INFO o.s.d.r.c.DeferredRepositoryInitializationListener [restartedMain] Triggering deferred initialization of Spring Data repositories…
+2020-11-22 10:26:18,312 INFO o.s.d.r.c.DeferredRepositoryInitializationListener [restartedMain] Spring Data repositories initialized!
+2020-11-22 10:26:18,315 INFO o.s.b.StartupInfoLogger [restartedMain] Started SpringbootWebApplication in 0.785 seconds (JVM running for 683.507)
+2020-11-22 10:26:18,316 INFO o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2020-11-22 10:27:10,870 INFO o.s.o.j.AbstractEntityManagerFactoryBean [Thread-35] Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-11-22 10:27:10,873 INFO o.s.s.c.ExecutorConfigurationSupport [Thread-35] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-11-22 10:27:10,875 INFO c.z.h.HikariDataSource [Thread-35] HikariPool-7 - Shutdown initiated...
+2020-11-22 10:27:10,901 INFO c.z.h.HikariDataSource [Thread-35] HikariPool-7 - Shutdown completed.

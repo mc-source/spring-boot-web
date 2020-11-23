@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration>
+    <Appenders>
+        <Console name="Console" target="SYSTEM_OUT">
+            <PatternLayout
+                pattern="%style{%d{dd-MM-yy HH:mm:ss}}{black} %highlight{%-5level }[%style{%t}{bright,blue}] %style{%C}{bright,yellow}: %msg%n%throwable" />
+        </Console>
+    </Appenders>
+ 
+    <Loggers>
+        <Root level="info">
+            <AppenderRef ref="Console" />
+        </Root>
+
+        <Logger name="mc.com" level="trace"></Logger>
+    </Loggers>
+ 
+</Configuration>
