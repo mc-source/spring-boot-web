@@ -21,8 +21,6 @@ public class FrontController {
 	
 	@Autowired
 	ArticleRepository articleRepository;
-	
-	//	private ServletContext context;
 
 	@Value("${application.name}")
 	String name;
