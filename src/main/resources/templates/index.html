@@ -5,10 +5,12 @@
 	<div class="starter-template">
 		<img class="img-fluid" th:src="@{/images/logo.png}" style="width:30%;" />
         <h3>
-           <span th:text="${message}"></span>
+           <span th:text="${welcome}"></span>
            <span th:text="${contextPath}"></span>
         </h3>
     </div>
+    <hr />
+    <h1 th:text="${welcome}"></h1>
 	<hr />
 	<div class="row">
 		<div class="col-md-12">					

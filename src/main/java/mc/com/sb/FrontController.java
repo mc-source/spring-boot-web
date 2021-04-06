@@ -24,13 +24,13 @@ public class FrontController {
 
 	@Value("${application.name}")
 	String name;
-	@Value("${welcome.message}")
-	String message;
+//	@Value("${welcome.message}")
+//	String message;
 	
 
 	@GetMapping("/")
 	public String welcome(Model model) {
-		model.addAttribute("message", message);
+		//model.addAttribute("message", message);
 		model.addAttribute("links", HelpRepository.links);		
 
 		return "index";
